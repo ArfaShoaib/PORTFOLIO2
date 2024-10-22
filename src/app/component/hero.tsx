@@ -16,8 +16,8 @@ const Hero = () => {
               options={{
                 strings: [
                   "Arfa Shoaib",
-                  "Front-end Developer",
-                  "Content Writer",
+                  "Front-end Developer"
+                 
                 ],
                 autoStart: true,
                 loop: true,
@@ -48,8 +48,8 @@ const Hero = () => {
           <Image
             src={require("../../../public/pro1.jpg")}
             alt="profile image"
-            width={500}
-            height={600}
+            width={350}
+            height={100}
             className="rounded-lg shadow-lg"
           />
         </div>
