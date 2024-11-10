@@ -114,7 +114,7 @@ const Projects = () => {
                 </div>
 
                 {/* Travel Website Card */}
-                <div className="px-5 w-full sm:w-1/2 mb-6">
+                <div className="px-5 w-full sm:w-1/2 mb-10">
                   <div className="group flex flex-wrap w-full bg-gray-100 py-16 sm:py-24 px-6 sm:px-10 relative transform transition-transform duration-300 ease-in-out hover:scale-105">
                     <Image
                       alt="Travel Website"
@@ -124,7 +124,7 @@ const Projects = () => {
                       className="w-full object-cover h-full opacity-25 absolute inset-0"
                     />
                     <div className="text-center relative z-10 w-full group-hover:scale-110 transition-transform duration-300 ease-in-out">
-                      <h2 className="text-xl text-gray-900 font-medium title-font mb-2">
+                      <h2 className="text-xl text-gray-900 font-medium title-font mb-1">
                         Travel Website
                       </h2>
                       <p className="leading-relaxed">
