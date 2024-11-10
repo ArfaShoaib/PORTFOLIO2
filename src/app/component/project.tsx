@@ -80,13 +80,14 @@ const Projects = () => {
                         </p>
                       </Link>
                     </div>
-                  
                   </div>
                 </div>
+
+                {/* Coffee Website Card */}
                 <div className="px-5 w-full sm:w-1/2 mb-6">
                   <div className="group flex flex-wrap w-full bg-gray-100 py-16 sm:py-24 px-6 sm:px-10 relative transform transition-transform duration-300 ease-in-out hover:scale-105">
                     <Image
-                      alt="Static Resume"
+                      alt="Coffee Website"
                       src="/coffeepro-pic.jpg"
                       layout="fill"
                       objectFit="cover"
@@ -97,7 +98,7 @@ const Projects = () => {
                         Coffee Website
                       </h2>
                       <p className="leading-relaxed">
-                        I Build a Coffee Website Using Nextjs
+                        I Built a Coffee Website Using Next.js
                       </p>
                       <Link
                         href={"https://assigment-nextjs-3.vercel.app/"}
@@ -109,10 +110,14 @@ const Projects = () => {
                         </p>
                       </Link>
                     </div>
-                    <div className="px-5 w-full sm:w-1/2 mb-6">
+                  </div>
+                </div>
+
+                {/* Travel Website Card */}
+                <div className="px-5 w-full sm:w-1/2 mb-6">
                   <div className="group flex flex-wrap w-full bg-gray-100 py-16 sm:py-24 px-6 sm:px-10 relative transform transition-transform duration-300 ease-in-out hover:scale-105">
                     <Image
-                      alt="Static Resume"
+                      alt="Travel Website"
                       src="/travel.png"
                       layout="fill"
                       objectFit="cover"
@@ -123,7 +128,7 @@ const Projects = () => {
                         Travel Website
                       </h2>
                       <p className="leading-relaxed">
-                        I Build a Travel Website Using HTML , CSS and Typescript/Javascript
+                        I Built a Travel Website Using HTML, CSS, and TypeScript/JavaScript
                       </p>
                       <Link
                         href={"https://travel-website-rho-nine.vercel.app/"}
@@ -135,17 +140,15 @@ const Projects = () => {
                         </p>
                       </Link>
                     </div>
-                    </div>
-                    </div>
                   </div>
                 </div>
+
               </div>
             </div>
           </div>
         </div>
       </section>
     </div>
-    
   );
 };
 
