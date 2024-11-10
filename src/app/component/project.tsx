@@ -109,6 +109,34 @@ const Projects = () => {
                         </p>
                       </Link>
                     </div>
+                    <div className="px-5 w-full sm:w-1/2 mb-6">
+                  <div className="group flex flex-wrap w-full bg-gray-100 py-16 sm:py-24 px-6 sm:px-10 relative transform transition-transform duration-300 ease-in-out hover:scale-105">
+                    <Image
+                      alt="Static Resume"
+                      src="/travel.png"
+                      layout="fill"
+                      objectFit="cover"
+                      className="w-full object-cover h-full opacity-25 absolute inset-0"
+                    />
+                    <div className="text-center relative z-10 w-full group-hover:scale-110 transition-transform duration-300 ease-in-out">
+                      <h2 className="text-xl text-gray-900 font-medium title-font mb-2">
+                        Travel Website
+                      </h2>
+                      <p className="leading-relaxed">
+                        I Build a Travel Website Using HTML , CSS and Typescript/Javascript
+                      </p>
+                      <Link
+                        href={"https://travel-website-rho-nine.vercel.app/"}
+                        target="_blank"
+                      >
+                        <p className="leading-relaxed text-blue-500 hover:underline mt-2 flex items-center justify-center">
+                          View More
+                          <IoIosArrowRoundForward className="ml-2 w-5 h-5 mt-1" />
+                        </p>
+                      </Link>
+                    </div>
+                    </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -117,6 +145,7 @@ const Projects = () => {
         </div>
       </section>
     </div>
+    
   );
 };
 
